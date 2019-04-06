@@ -24,6 +24,7 @@ public static boolean saoMeioIrmaos(Filho filhoUm, Filho filhoDois){
     return mesmaMae(filhoUm, filhoDois) && !mesmoPai(filhoUm,filhoDois) || !mesmaMae(filhoUm,filhoDois) && mesmoPai(filhoUm,filhoDois);
     }
 
+
     //--------------
     public static void main(String[] args) {
 
